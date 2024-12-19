@@ -31,12 +31,11 @@ body {
   height: 20px;
   border: 1px solid rgb(23, 23, 23);
   border-radius: 3px;
-
 }
 
 
 .color_white {
-  background: radial-gradient(circle, #ffffff 70%, #d9d9d9 100%);
+  background: radial-gradient(circle, #ffffff 70%, #ededed 100%);
 }
 
 .color_green {
@@ -49,7 +48,7 @@ body {
 }
 
 .color_silver {
-  background: radial-gradient(circle, #c0c0c0 70%, #808080 100%);
+  background: radial-gradient(circle, #a5a5a5 70%, #757575 100%);
 }
 
 
@@ -60,3 +59,52 @@ body {
 .color_blue {
   background: radial-gradient(circle, #00ffff 70%, #008080 100%);
 }
+
+.color_yellow {
+  /* background: rgb(179, 179, 2); */
+
+  background-color: #ffff99;
+  /* Мягкий желтый цвет */
+  border-radius: 50%;
+  /* Круглая форма */
+  width: 10px;
+  /* Размер звезды */
+  height: 10px;
+  box-shadow: 0 0 8px 4px rgba(255, 255, 153, 0.6);
+  /* Эффект свечения */
+}
+
+/* .color_snow {
+  background-color: #ffffff;
+  /* Белый цвет для снега */
+border-radius: 50%;
+/* Круглая форма для снежинки */
+width: 8px;
+/* Размер снежинки */
+height: 8px;
+box-shadow: 0 0 6px 3px rgba(255, 255, 255, 0.6);
+/* Мягкое белое свечение */
+animation: snow-fall 5s infinite ease-in-out;
+}
+
+*/
+/* @keyframes snow-fall {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translate(-10px, 50vh);
+    /* Немного сдвигается влево */
+opacity: 0.8;
+}
+
+100% {
+  transform: translate(10px, 100vh);
+  /* Немного сдвигается вправо */
+  opacity: 0;
+}
+}
+
+*/
