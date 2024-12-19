@@ -31,31 +31,32 @@ body {
   height: 20px;
   border: 1px solid rgb(23, 23, 23);
   border-radius: 3px;
+
 }
 
 
 .color_white {
-  background: #DFF0FC;
+  background: radial-gradient(circle, #ffffff 70%, #d9d9d9 100%);
 }
 
 .color_green {
-  background: #0C9825;
+  background: radial-gradient(circle, #00ff00 70%, #006400 100%);
 }
 
 
 .color_brown {
-  background: #9F7449;
+  background: radial-gradient(circle, #a0522d 70%, #5a2e0d 100%);
 }
 
 .color_silver {
-  background: #70797E;
+  background: radial-gradient(circle, #c0c0c0 70%, #808080 100%);
 }
 
 
 .color_orange {
-  background: #E18F1F;
+  background: radial-gradient(circle, #ffa500 70%, #cc8400 100%);
 }
 
 .color_blue {
-  background: #18C6DF;
+  background: radial-gradient(circle, #00ffff 70%, #008080 100%);
 }
