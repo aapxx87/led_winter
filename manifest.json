@@ -1,5 +1,5 @@
 {
-  "short_name": "New App",
+  "short_name": "LED_winter",
   "name": "My Application",
   "icons": [
     {
@@ -10,6 +10,6 @@
   ],
   "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#2e3238",
-  "background_color": "#2e3238"
+  "theme_color": "#000000",
+  "background_color": "#000000"
 }
