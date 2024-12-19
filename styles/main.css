@@ -23,13 +23,13 @@ body {
   display: grid;
   grid-template-rows: repeat(42, 1fr);
   grid-template-columns: repeat(20, 1fr);
-  gap: 1px;
+  /* gap: 1px; */
 }
 
 .cell {
   width: 20px;
   height: 20px;
-  border: 1px solid rgb(39, 39, 39);
+  border: 1px solid rgb(23, 23, 23);
   border-radius: 3px;
 }
 
